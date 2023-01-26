@@ -1,1 +1,6 @@
-testval: teststring
+application:
+  spring:
+   config:
+     activate:
+       on-cloud-platform: "kubernetes"
+
