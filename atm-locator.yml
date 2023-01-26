@@ -1,21 +1,2 @@
-application.yaml: |                                                                                                                                                            │
-  spring:                                                                                                                                                                      │
-   config:                                                                                                                                                                     │
-     activate:                                                                                                                                                                 │
-       on-cloud-platform: "kubernetes"                                                                                                                                         │
-                                                                                                                                                                               │
-  # These URIs could point anywhere.  Pointing them                                                                                                                            │
-  # to the k8s deployment as the default.                                                                                                                                      │
-   cloud:                                                                                                                                                                      │
-      discovery:                                                                                                                                                                │
-       client:                                                                                                                                                                 │
-         simple:                                                                                                                                                               │
-           instances:                                                                                                                                                          │
-             location-translator:                                                                                                                                              │
-               - uri: http://location-translator                                                                                                                               │
-             atm:                                                                                                                                                              │
-               - uri: http://atm                                                                                                                                               │
-             branch:                                                                                                                                                           │
-               - uri: http://branch                                                                                                                                            │
-type: |                                                                                                                                                                        │
-  spring-config
+application.yaml: c3ByaW5nOgogY29uZmlnOgogICBhY3RpdmF0ZToKICAgICBvbi1jbG91ZC1wbGF0Zm9ybTogImt1YmVybmV0ZXMiCgojIFRoZXNlIFVSSXMgY291bGQgcG9pbnQgYW55d2hlcmUuICBQb2ludGluZyB0aG
+type: c3ByaW5nLWNvbmZpZwo=
